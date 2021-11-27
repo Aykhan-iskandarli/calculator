@@ -1,0 +1,98 @@
+.btn{
+    border: none;
+    outline: none;
+    width: 200px;
+
+    padding: 10px;
+    background-color: rgb(221, 65, 4);
+    font-size: 15px;
+    
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.btn-icon{
+ margin-left: 10px;
+ font-size: 18px;
+}
+
+.item{
+    border: 1px solid rgb(224, 224, 224);
+    padding: 10px;
+    margin: 10px 0;
+    font-weight: 500;
+    transition: all .5s ease;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+}
+.info .amount{
+    background-color: orange;
+    padding: 5px;
+    
+    display: flex;
+    justify-content: center;
+}
+.item:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.change{
+    display: flex;
+    margin-left: 20px;
+}
+.btn{
+    margin: 10px 0;
+}
+.edit-btn, .delete-btn{
+    border: none;
+    outline: none;
+    width: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.edit-btn svg{
+    color: green;
+}
+
+.delete-btn svg{
+    color: red;
+}
+
+
+/* form */
+
+.form-center{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.form-group:first-child{
+    margin-right: 30px;
+}
+.form-group label{
+    margin: 10px 0;
+}
+.form-control{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(16, 21, 39);
+    padding: 10px 0;
+    margin: 10px 0;
+    width: 100%;
+}
